@@ -12,11 +12,15 @@ header {
     padding: 10px;
 }
 
+.subtext {
+    color: rgb(150, 150, 150);
+}
+
 .site-title {
     font-size: 25px;
     flex-shrink: 0;
     margin-left: 20px;
-    color: rgb(236, 236, 236);
+    color: rgb(255, 255, 255);
 }
 
 .nav-bar {
@@ -30,7 +34,7 @@ header {
 .nav-link {
     text-decoration: none;
     list-style: none;
-    color: rgb(194, 194, 194);
+    color: rgb(150, 150, 150);
 }
 
 .section-one {
@@ -51,10 +55,25 @@ header {
     color: white;
 }
 
-.main-subtext {
-    color: rgb(194, 194, 194);
+.main-image {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
 }
 
-.main-image {
-    max-width: 300px;
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
 }
