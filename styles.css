@@ -13,6 +13,11 @@ header {
     padding: 10px;
 }
 
+a {
+    text-decoration: none;
+    color:rgb(150, 150, 150)
+}
+
 .subtext {
     color: rgb(150, 150, 150);
     font-size: 18px;
@@ -34,7 +39,6 @@ header {
 }
 
 .nav-link {
-    text-decoration: none;
     list-style: none;
     color: rgb(150, 150, 150);
 }
