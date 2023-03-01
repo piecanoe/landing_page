@@ -3,17 +3,19 @@ body {
     flex-direction: column;
     width: 100%;
     font-family: Roboto;
+    margin: -5px;
 }
 
 header {
     display: flex;
     background-color: darkgreen;
-    margin-top: -20px;
+    margin-top: -10px;
     padding: 10px;
 }
 
 .subtext {
     color: rgb(150, 150, 150);
+    font-size: 18px;
 }
 
 .site-title {
@@ -57,11 +59,13 @@ header {
 }
 
 .hero-button {
-    width: 80px;
+    width: 100px;
     height: 40px;
     background-color: rgb(121, 255, 121);
-    order: 5px;
-    border-color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    
 }
 
 .hero-image {
@@ -76,11 +80,14 @@ header {
     align-items: center;
     padding-left: auto;
     padding-right: auto;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .grid {
     display: flex;
     gap: 40px;
+    margin-top: 50px;
 }
 
 .level {
@@ -94,14 +101,23 @@ header {
     object-fit: cover;
     width: 175px;
     height: 175px;
+    border-radius: 10px;
+    border: 5px solid rgb(150, 150, 150);
+    border-color:rgb(121, 255, 121);
 }
 
 .section-three {
+    background-color: rgb(150, 150, 150);
+    padding-top: 125px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box {
+    width: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: rgb(150, 150, 150);
-    padding: 50px 70px;
 }
 
 .quote {
@@ -113,13 +129,15 @@ header {
 .quote-author {
     font-size: 20px;
     font-weight: 800;
-    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .section-four {
     display: flex;
     justify-content: center;
 }
+
 .cta {
     background-color: rgb(121, 255, 121); 
     display: flex;
@@ -127,14 +145,37 @@ header {
     align-items: center;
     gap: 20px;
     margin: 40px;
-    padding: 40px;
-    width: 800px;
+    padding: 30px;
+    width: 1000px;
+    border-radius: 10px;
 }
 
-.cta-button {
-    width: 80px;
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cta-main {
+    width: 500px;
+    margin-bottom: -10px;
+}
+
+div .cta-button {
+    width: 100px;
     height: 40px;
     background-color: rgb(121, 255, 121);
-    border: 5px;
-    border-color: white;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+}
+
+footer {
+    background-color: darkgreen;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
